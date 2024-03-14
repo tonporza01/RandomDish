@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    /* background-image: url(img/Healthy\ fruit\ hand\ 1900.jpg); */
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.link-body-emphasis {
+    color: RGBA(var(--bs-emphasis-color-rgb), var(--bs-link-opacity, 1)) !important;
+    -webkit-text-decoration-color: RGBA(var(--bs-emphasis-color-rgb), var(--bs-link-underline-opacity, 1)) !important;
+    text-decoration-color: RGBA(var(--bs-emphasis-color-rgb), var(--bs-link-underline-opacity, 1)) !important;
+}
+.backdrop-filter {
+    -webkit-backdrop-filter: var(--bs-backdrop-filter);
+    backdrop-filter: var(--bs-backdrop-filter);
+}
+h1{
+    text-shadow: 5px 3.5px 4.0px rgba(100, 100, 100, 0.5);
+}
+p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.hero-h1{
+    background-image: url(img/Healthy\ fruit\ hand\ 1900.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
