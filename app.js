@@ -1,6 +1,5 @@
-
 const randomMenu = () => {
-    for(var i=0 ; i<6 ; i++){
+    for(var i=0 ; i<2 ; i++){
         var random_answer = ""
         if(Math.floor(Math.random()*165) <=4){
             random_answer = "กระเพราหมูสับ"  
@@ -123,5 +122,5 @@ const randomMenu = () => {
         }
         console.log(random_answer)
     }
-    return(document.getElementById("result").innerHTML = "เมนูที่ได้ "+" : "+ random_answer)
+    return(document.getElementById("result").innerHTML += " : "+ random_answer + ":");
 }
